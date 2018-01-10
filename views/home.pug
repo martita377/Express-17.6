@@ -1,10 +1,9 @@
-doctype html
-html
-    head
-        title This is MagicApp
-        link(rel='stylesheet', href='../assets/style.css')
-    body
-        div.container
-            h1 MyApp
-            p Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
-            a.login(href='/users/google') Sign in with Google 
+extends layout.pug
+
+block title
+  ="This is MagicApp"
+
+block container
+  h1 MyApp
+  p Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
+  a.login(href='/users/google') Sign in with Google

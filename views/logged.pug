@@ -1,9 +1,9 @@
-doctype html
-html
-    head
-        title Welcome to MagicApp
-        link(rel='stylesheet', href='../assets/style.css')
-    body
-        div.container
-            h1 Welcome to MyApp!
-            p You have succesfully logged in 
+extends layout.pug
+
+block title 
+  ="Welcome to MagicApp"
+
+block container
+  h1 Welcome to MyApp!
+  p You have succesfully logged in
+            
